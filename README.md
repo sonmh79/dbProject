@@ -62,10 +62,25 @@ DB -> Dataframe(pandas) -> QTablewidget 순으로 데이터를 처리해서 보�
 
 ## 4. 강제 입력 / 삭제
 
-<img width="337" alt="강제 입력 삭제" src="https://user-images.githubusercontent.com/78152114/144629583-567872d1-86c1-45be-99cd-c8e84c50ac51.png">
+<img width="500" alt="강제 입력 삭제" src="https://user-images.githubusercontent.com/78152114/144629583-567872d1-86c1-45be-99cd-c8e84c50ac51.png">
 
+강제 입력 또는 삭제하고자 하는 학생의 학번, 이름, 학과를 입력해 입력 또는 삭제할 수 있다.
 
+단, 해당하는 학생이 student 테이블에 존재하여야 한다.
 
+강제 입력 시, attendance, homework, test 테이블에서 각각 레코드가 생성되며 새로운 학생의 정보와 함께 attend테이블에 포함된다.
+
+## 5. 학점 관리
+
+<img width="500" alt="학점 관리" src="https://user-images.githubusercontent.com/78152114/144629592-abdb61cc-c0dd-42e7-bf47-529d18a2430c.png">
+
+성적 산출을 위한 비율을 직접 지정할 수 있다.
+
+절대평가 방식으로 각 학점 별 커트라인을 지정할 수 있으며, 산출 버튼을 클릭 시 이에 대한 비율이 계산된다.
+
+산출된 비율을 보고 커트라인을 조정할 수 있다.
+
+최종 성적이 확정되면, 엑셀로 저장 버튼을 통해 테이블의 내용을 엑셀로 저장할 수 있다.
 
 
 
